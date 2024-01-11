@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mt_Thunder_Sub_00
+  m_Shader: {fileID: 4800000, guid: f1ffeb052775a5d42ac7f150e5f154d2, type: 3}
+  m_ShaderKeywords: TEX0_OP_ADD TEX1_LERPCOLOR TEX1_OP_MUL TEX2_OP_NONE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CLUT0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: 1b4892905441bb540b0b612924881595, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture1:
+        m_Texture: {fileID: 2800000, guid: 1b4892905441bb540b0b612924881595, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - TEX0_OP: 1
+    - TEX1_OP: 2
+    - TEX2_OP: 0
+    - _ApplySunOcclusion: 0
+    - _BlendDst: 10
+    - _BlendOp: 0
+    - _BlendSrc: 1
+    - _ColorMask: 15
+    - _CullMode: 2
+    - _Tex0Flipbook: 0
+    - _Tex0Grid: 0
+    - _Tex0LC: 0
+    - _Tex1Grid: 0
+    - _Tex1LC: 1
+    - _Tex2Grid: 0
+    - _Tex2LC: 0
+    - _Version: 2
+    - _ZTestMode: 4
+    - _ZWriteParam: 0
+    - _bCLUT0: 0
+    m_Colors:
+    - _AC_MiddleColor: {r: 1, g: 0, b: 0, a: 1}
+    - _AC_Params0: {r: 0.5, g: 0.5, b: 0, a: 0.2}
+    - _AC_Params1: {r: 0.5, g: 0.5, b: 0.8, a: 1}
+    - _AC_Params2: {r: 0, g: 0, b: 0, a: 0}
+    - _BlackColor0: {r: 0.29999998, g: 0, b: 0, a: 1}
+    - _BlackColor1: {r: 0, g: 0, b: 0, a: 0.16078432}
+    - _BlackColor2: {r: 0, g: 0, b: 0.19999996, a: 1}
+    - _ColorPoints0: {r: 0, g: 0.5, b: 1, a: 0}
+    - _ColorPoints1: {r: 0, g: 0.49411765, b: 0.8882429, a: 0}
+    - _ColorPoints2: {r: 0, g: 0.5, b: 1, a: 0}
+    - _EdgeFade_SoftPtcl: {r: 0, g: 0.70710677, b: 1, a: 0}
+    - _EnvColor: {r: 2.7033737, g: 2.7033737, b: 2.7033737, a: 1}
+    - _GameColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LuminanceScale: {r: 1, g: 1, b: 1, a: 1}
+    - _MiddleColor0: {r: 0.65, g: 0.39999998, b: 0.39999998, a: 1}
+    - _MiddleColor1: {r: 0.53648984, g: 0.7279717, b: 0.8301887, a: 0.6567846}
+    - _MiddleColor2: {r: 0.39999998, g: 0.39999998, b: 0.6, a: 1}
+    - _MiscValue: {r: 0, g: 0, b: 0, a: 0}
+    - _Power0: {r: 1.83, g: 0, b: 0, a: 0}
+    - _Power1: {r: 1.6, g: 0, b: 0, a: 0}
+    - _Power2: {r: 1, g: 0, b: 0, a: 0}
+    - _UVClamp0: {r: 1, g: 0, b: 1, a: 0}
+    - _UVClamp1: {r: 0, g: 0, b: 0, a: 0}
+    - _UVClamp2: {r: 0, g: 0, b: 1, a: 0}
+    - _UVFlip0: {r: 0, g: 0, b: 0, a: 0}
+    - _UVFlip1: {r: 0, g: 0, b: 0, a: 0}
+    - _UVFlip2: {r: 0, g: 0, b: 0, a: 0}
+    - _UVFlipbook0: {r: 1, g: 1, b: 0, a: 0}
+    - _UVFlipbook1: {r: 1, g: 1, b: 0, a: 0}
+    - _UVFlipbook2: {r: 1, g: 1, b: 0, a: 0}
+    - _UVGrid0: {r: 4, g: 4, b: 0, a: 15}
+    - _UVGrid1: {r: 4, g: 4, b: 0, a: 15}
+    - _UVGrid2: {r: 4, g: 4, b: 0, a: 15}
+    - _UVParams0: {r: 0, g: 0, b: 0, a: 1}
+    - _UVParams1: {r: 0, g: 0, b: 0, a: 1}
+    - _UVParams2: {r: 0, g: 0, b: 0, a: 1}
+    - _UVScroll0: {r: 0, g: 0, b: 0, a: 1}
+    - _UVScroll1: {r: 0, g: 0, b: 0, a: 1}
+    - _UVScroll2: {r: 0, g: 0, b: 0, a: 1}
+    - _WhiteColor0: {r: 1, g: 0.8, b: 0.8, a: 1}
+    - _WhiteColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _WhiteColor2: {r: 0.8, g: 0.8, b: 1, a: 1}
+  m_BuildTextureStacks: []

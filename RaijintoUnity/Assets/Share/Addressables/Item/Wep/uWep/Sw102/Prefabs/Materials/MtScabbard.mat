@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3625064331033808343
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MtScabbard
+  m_Shader: {fileID: 4800000, guid: aef2970d0814590498088df63ed8fd10, type: 3}
+  m_ShaderKeywords: _EMISSION _S_KEY_RIMLIGHT_ON
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 51aa0dfece8ef9b4c9261fbc0ee7e249, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: fa08f0b2798eecd479e56773067a4cea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MorphEmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MorphPatternMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MultiMap:
+        m_Texture: {fileID: 2800000, guid: 17ae3bd91061a434788b245e91852cf6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonRamp:
+        m_Texture: {fileID: 2800000, guid: 9fa873e12c3cc734b8331ec6da02a185, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonRampMetal:
+        m_Texture: {fileID: 2800000, guid: 41324fece7a0422459947006392e5dcb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonRampMetal_Morph:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonRamp_Morph:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpCameraAttenuation: 0.2
+    - _BumpScale: 1
+    - _DEBUG_CUSTOM_OUTLINE_ONLY: 0
+    - _Dev_KeyToonSpecularByLight: 0
+    - _DisableOutline: 0
+    - _DitherAlphaValue: 1
+    - _Emission: 0
+    - _Key_DitherAlpha: 0
+    - _Key_Engage: 0
+    - _LightColorToWhite: 0
+    - _LightShadowToWhite: 0
+    - _Makeup: 0
+    - _OcclusionIntensity: 1
+    - _OutlineGameScale: 1
+    - _OutlineOriginalColorRate: 0
+    - _OutlineScale: 3.5
+    - _OutlineTexMipLevel: 4
+    - _Preset: 0
+    - _RimLightBlend: 0.25
+    - _RimLightScale: 0.5
+    - _S_Key_BumpAttenuation: 0
+    - _S_Key_ColorChangeMask: 0
+    - _S_Key_MorphDress: 0
+    - _S_Key_MorphSkin: 0
+    - _S_Key_RimLight: 1
+    - _S_Key_StandardColor: 0
+    - _S_Key_StandardSkin: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorChangeMask025: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorChangeMask050: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorChangeMask075: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorChangeMask100: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EngageEmissionColor: {r: 0.314, g: 0.314, b: 0.47, a: 1}
+    - _OutlineColor: {r: 0.29411766, g: 0.24313726, b: 0.24313726, a: 1}
+    - _RimLightColorLight: {r: 0.6901961, g: 0.70980394, b: 0.8980392, a: 1}
+    - _RimLightColorShadow: {r: 0.45882353, g: 0.47843137, b: 0.65882355, a: 1}
+    - _ToonShadowColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
